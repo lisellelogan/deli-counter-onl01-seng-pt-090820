@@ -27,4 +27,5 @@ end
 
 def take_a_number(people, name_to_add)
   people.push(name_to_add)
+  puts "Welcome, #{name_to_add}. You are #{people.lenth} in line."
 end
