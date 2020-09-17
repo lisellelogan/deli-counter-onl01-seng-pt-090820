@@ -32,7 +32,7 @@ end
 
 def now_serving(people)
   if people.length == 0
-    "There's nobody waiting to be served!"
+    puts "There's nobody waiting to be served!"
   else
     puts "Currently serving #{people[0]}"
     people[0]
