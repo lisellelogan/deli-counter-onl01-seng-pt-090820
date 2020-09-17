@@ -30,7 +30,7 @@ def take_a_number(people, name_to_add)
   puts "Welcome, #{name_to_add}. You are number #{people.length} in line."
 end
 
-def now_serving(names)
+def now_serving(people)
   if people.length == 0
     "There's nobody waiting to be served!"
   else
