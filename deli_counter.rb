@@ -29,3 +29,11 @@ def take_a_number(people, name_to_add)
   people.push(name_to_add)
   puts "Welcome, #{name_to_add}. You are #{people.lenth} in line."
 end
+
+def now_serving(names)
+  if people.length == 0
+    "There's nobody waiting to be served!"
+  else
+    puts "Currently serving #{people[0]}"
+    people[0]
+  end
