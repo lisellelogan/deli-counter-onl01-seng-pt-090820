@@ -37,3 +37,4 @@ def now_serving(names)
     puts "Currently serving #{people[0]}"
     people[0]
   end
+end
