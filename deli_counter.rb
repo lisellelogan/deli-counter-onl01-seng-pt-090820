@@ -27,7 +27,7 @@ end
 
 def take_a_number(people, name_to_add)
   people.push(name_to_add)
-  puts "Welcome, #{name_to_add}. You are #{people.lenth} in line."
+  puts "Welcome, #{name_to_add}. You are #{people.length} in line."
 end
 
 def now_serving(names)
