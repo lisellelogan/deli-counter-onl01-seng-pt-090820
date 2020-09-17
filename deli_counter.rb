@@ -24,3 +24,7 @@ def line(people)
     puts "The line is currently: " + stringified_position
   end
 end
+
+def take_a_number(people, name_to_add)
+  people.push(name_to_add)
+end
