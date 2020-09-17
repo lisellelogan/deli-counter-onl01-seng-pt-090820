@@ -2,11 +2,8 @@ require 'pry'
 
 def line(people)
   if people.size > 0
-    customers = " "
-    people.map.with_index(1) do |person, index|
-      puts customers << "#{index}. #{person} "
+    people.map.with_index(1) {|person, index| "#{index}. #{person}"}
     end
-    puts "The line is currently: #{customers}"
   else
     puts "The line is currently empty."
   end
